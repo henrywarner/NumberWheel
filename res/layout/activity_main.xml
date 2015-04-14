@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    tools:context="com.hw.numberwheel.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <com.hw.numberwheel.NumberWheel
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.hw.numberwheel.NumberWheel
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp" />
+
+</FrameLayout>
